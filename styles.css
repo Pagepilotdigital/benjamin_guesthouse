@@ -1,0 +1,115 @@
+/* styles.css - Benjamin Guest House */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfb;
+  color: #1f1f1f;
+}
+
+h1, h2 {
+  color: #1F4422;
+  text-align: center;
+}
+
+header.site-header {
+  background-color: #1F4422;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header .cta-buttons {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn.whatsapp {
+  background-color: #25D366;
+}
+
+.btn.call {
+  background-color: #D32F2F;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+section.rates ul,
+section.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+section.rates li,
+section.benefits li {
+  background: #f0f4ec;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.booking-form form {
+  display: grid;
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form button {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  background-color: #1F4422;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #163b1a;
+}
+
+footer {
+  background-color: #1F4422;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
