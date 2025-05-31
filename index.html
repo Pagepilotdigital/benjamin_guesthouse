@@ -10,6 +10,28 @@
   <link rel="canonical" href="https://benjaminguesthouse.co.za">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      text-align: center;
+      font-size: 28px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe5b;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -30,23 +52,28 @@
       <li>Night — R250 / R300</li>
       <li>Day & Night — R500 / R600</li>
     </ul>
-    <small>*Prices vary by room type</small>
+    <small>*Prices vary based on stay type</small>
   </section>
 
   <section class="gallery">
-    <h2>Our Rooms</h2>
+    <h2>Inside the Rooms</h2>
     <div class="image-grid">
-      <img src="room1.jpg" alt="Standard Room">
-      <img src="room2.jpg" alt="Luxury Room">
-      <img src="lounge.jpg" alt="Lounge Area">
+      <img src="room1.jpg" alt="Standard room view">
+      <img src="room2.jpg" alt="Larger room view">
     </div>
   </section>
 
+  <section class="room-types">
+    <h2>Our Rooms</h2>
+    <p><strong>Standard Room:</strong> A cozy space ideal for solo travelers or couples looking for a clean, private place to rest and recharge. Perfect for short stays or overnight visits.</p>
+    <p><strong>Larger Room:</strong> Offers more room to stretch out — great for guests who prefer a more open layout. Includes a two-plate stove with a mini oven, a fridge, and air conditioning for added comfort during your stay.</p>
+  </section>
+
   <section class="benefits">
-    <h2>Why Choose Us?</h2>
+    <h2>What You Get</h2>
     <ul>
       <li>✔ Free Wi-Fi</li>
-      <li>✔ DSTV in Rooms</li>
+      <li>✔ DSTV in Room</li>
       <li>✔ 24-Hour Check-in</li>
       <li>✔ Affordable Pricing</li>
       <li>✔ Clean & Secure Environment</li>
@@ -76,8 +103,18 @@
   <section class="location">
     <h2>Where to Find Us</h2>
     <p>Mpumalanga, Nkomazi, Mzinti on Tonga Main Road before Tonga Mall</p>
-    <iframe src="https://www.google.com/maps?q=Mzinti,+Tonga+Main+Road&output=embed" width="100%" height="250" style="border:0;"></iframe>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.6668100260567!2d31.494589275194633!3d-25.44636547864008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eea5d7e5f153d8b%3A0x8289e32c7a8c6b98!2sBenjamin%20Guest%20House!5e0!3m2!1sen!2sza!4v1717171717171" 
+      width="100%" 
+      height="300" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </section>
+
+  <a href="https://wa.me/27728999470" class="whatsapp-float" title="Chat on WhatsApp">💬</a>
 
   <footer>
     <p>Contact us: <a href="tel:+27728999470">072 899 9470</a> or <a href="tel:+27638095035">063 809 5035</a></p>
